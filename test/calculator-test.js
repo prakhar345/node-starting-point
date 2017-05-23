@@ -6,4 +6,9 @@ describe('Calculator', function() {
       assert.equal(2, Calculator.sum(1,1));
     });
   });
+   describe('subtract', function() {
+    it('should return 3 when inputs are 6,3', function() {
+      assert.equal(3, Calculator.subtract(6,3));
+    });
+  });
 });
